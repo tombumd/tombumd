@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tombumd Privacy Policy · 同步马隐私政策</title>
+<style>
+:root{--bg:#fff;--fg:#1f2328;--mut:#59636e;--rule:#d1d9e0;--accent:#4f46e5;--code:#f6f8fa}
+@media (prefers-color-scheme: dark){:root{--bg:#0d1117;--fg:#e6edf3;--mut:#9198a1;--rule:#3d444d;--accent:#8b8cf8;--code:#151b23}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:1.7em;line-height:1.3}h2{margin-top:2em;padding-bottom:.3em;border-bottom:1px solid var(--rule)}h3{margin-top:1.6em}
+a{color:var(--accent)}code{background:var(--code);padding:.1em .35em;border-radius:4px;font-size:.9em}
+hr{border:0;border-top:1px solid var(--rule);margin:2em 0}
+</style>
+</head>
+<body><main>
+<h1>tombumd (同步马) Privacy Policy · 隐私政策</h1>
+<p>Effective date · 生效日期：2026-10-04<br>Applies to · 适用于：the tombumd (同步马) browser extension (version 6.0.0 and later) and the single-file offline edition · tombumd（同步马）浏览器插件（6.0.0 及以后版本）与单文件离线版</p>
+<hr>
+<h2>English</h2>
+<p><strong>Summary: tombumd does not collect, transmit, sell or share any personal data. Everything you write stays on your device.</strong></p>
+<h3>1. What the extension does</h3>
+<p>tombumd is an offline Markdown editor. Clicking its toolbar button opens the editor in a browser tab. The editor, all of its code and all of its libraries are packaged inside the extension; nothing is downloaded from the internet.</p>
+<h3>2. Data we collect</h3>
+<p><strong>None.</strong> The extension has no server, no account system, no analytics, no telemetry, no crash reporting, no advertising and no third-party SDKs. The developer never receives your documents, settings or any information about you or your device.</p>
+<h3>3. Data stored on your device</h3>
+<p>To work as an editor, the extension stores the following <strong>only locally, in your browser's storage for this extension</strong> (IndexedDB / localStorage):</p>
+<ul>
+<li>the documents you create or import, their version history and the recycle bin;</li>
+<li>your settings (layout, export styles, etc.);</li>
+<li>a local activity log (used only to show you the history of edits/sync events; it never leaves your device);</li>
+<li>a cache of rendered formulas, so documents open faster.</li>
+</ul>
+<p>If you choose <strong>"Link a local folder"</strong> (available in browsers that support the File System Access API), the extension reads and writes Markdown files and images <strong>only inside the folder you pick</strong>, and only after the browser asks for your permission. You can unlink the folder at any time.</p>
+<p>You can delete this data at any time by deleting documents in the editor, by clearing the extension's site data, or by uninstalling the extension (uninstalling removes all of it).</p>
+<h3>4. Network access</h3>
+<p>The extension itself makes <strong>no network requests</strong>. The only exceptions are caused by content <strong>you</strong> put into your document:</p>
+<ul>
+<li>If your Markdown references an image by an <code>http(s)://</code> address, the browser loads that image from that website to display it, just like any web page would. When you export to Word/LaTeX or copy to Word/WeChat, the editor may download such images so it can embed them in the output.</li>
+<li>Links in your document are opened only when you click them.</li>
+</ul>
+<p>Those websites receive the normal information any web request carries (such as your IP address) and are governed by their own privacy policies. If you don't want this, use local images only.</p>
+<h3>5. Clipboard and files</h3>
+<p>The editor writes to the clipboard only when you use a Copy command, and reads clipboard content only when you paste. Exported files (Markdown, HTML, Word, PDF, PNG, LaTeX) are saved through your browser's normal download mechanism to a location you control.</p>
+<h3>6. Permissions</h3>
+<p>The extension requests <strong>no browser permissions</strong>. It cannot read or change the web pages you visit, your browsing history, tabs, cookies or bookmarks.</p>
+<h3>7. Children</h3>
+<p>The extension does not collect any data from anyone, including children.</p>
+<h3>8. Changes</h3>
+<p>If this policy changes, the new version will be published at the same address with a new effective date. Any change that would introduce data collection would be announced in the extension's store listing and would require your explicit consent first.</p>
+<h3>9. Contact</h3>
+<p>Questions: open an issue at <a href="https://github.com/tombumd">https://github.com/tombumd</a> (please don't post private content in public issues).</p>
+<hr>
+<h2>中文</h2>
+<p><strong>一句话：同步马不收集、不上传、不出售、不分享任何个人数据。你写的所有内容都只留在你自己的设备上。</strong></p>
+<h3>1. 插件做什么</h3>
+<p>同步马是一个离线 Markdown 编辑器。点工具栏按钮，会在浏览器标签页中打开编辑器。编辑器本身、全部代码和第三方库都打包在插件里，不会从网络下载任何东西。</p>
+<h3>2. 我们收集的数据</h3>
+<p><strong>没有。</strong> 插件没有服务器、没有账号系统、没有统计分析、没有遥测、没有崩溃上报、没有广告，也没有任何第三方 SDK。开发者永远收不到你的文档、设置，或任何关于你和你设备的信息。</p>
+<h3>3. 保存在你设备上的数据</h3>
+<p>为了正常编辑，插件会把以下内容<strong>只保存在本机浏览器为本插件分配的存储空间里</strong>（IndexedDB / localStorage）：</p>
+<ul>
+<li>你新建或导入的文档、版本历史和回收站；</li>
+<li>你的设置（布局、导出样式等）；</li>
+<li>本地操作日志（只用于给你查看编辑/同步记录，从不离开你的设备）；</li>
+<li>公式渲染缓存，用于加快打开速度。</li>
+</ul>
+<p>如果你使用「定位本地文件夹」（浏览器支持 File System Access API 时可用），插件<strong>只会读写你选定的那个文件夹</strong>里的 Markdown 文件和图片，并且必须先经过浏览器弹窗授权。你可以随时撤销定位。</p>
+<p>你可以随时删除这些数据：在编辑器里删除文档、清除本插件的网站数据，或直接卸载插件（卸载会全部删除）。</p>
+<h3>4. 网络访问</h3>
+<p>插件本身<strong>不发出任何网络请求</strong>。唯一的例外来自<strong>你自己</strong>写进文档的内容：</p>
+<ul>
+<li>如果你的 Markdown 用 <code>http(s)://</code> 地址引用了网络图片，浏览器会像打开普通网页一样，从那个网站加载图片来显示；在导出 Word / LaTeX 或复制到 Word / 公众号时，编辑器可能会下载这些图片，以便嵌入到输出文件中。</li>
+<li>文档里的链接只有在你点击时才会打开。</li>
+</ul>
+<p>这些网站会收到普通网络请求都会带的信息（例如 IP 地址），并受它们各自的隐私政策约束。如果不希望这样，请只使用本地图片。</p>
+<h3>5. 剪贴板与文件</h3>
+<p>只有在你使用「复制」功能时，编辑器才写入剪贴板；只有在你粘贴时，才读取粘贴的内容。导出的文件（Markdown、HTML、Word、PDF、PNG、LaTeX）通过浏览器正常的下载功能，保存到你自己决定的位置。</p>
+<h3>6. 权限</h3>
+<p>插件<strong>不申请任何浏览器权限</strong>。它无法读取或修改你访问的网页，也无法访问你的浏览历史、标签页、Cookie 或书签。</p>
+<h3>7. 儿童</h3>
+<p>插件不收集任何人的数据，包括儿童。</p>
+<h3>8. 变更</h3>
+<p>本政策如有变化，新版本会发布在同一地址并更新生效日期。任何引入数据收集的改动，都会先在商店页面说明，并且必须事先征得你的明确同意。</p>
+<h3>9. 联系方式</h3>
+<p>有问题请在 <a href="https://github.com/tombumd">https://github.com/tombumd</a> 提 issue（请不要在公开 issue 中贴私人内容）。</p>
+</main></body>
+</html>
