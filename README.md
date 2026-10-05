@@ -29,10 +29,10 @@ All files are on the [Releases page](https://github.com/tombumd/tombumd/releases
 
 | File 文件 | What it is 说明 |
 | --- | --- |
-| [`tombumd-6.1.0.html`](https://github.com/tombumd/tombumd/releases/download/v6.1.0/tombumd-6.1.0.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
-| [`tombumd-chrome-6.1.0.zip`](https://github.com/tombumd/tombumd/releases/download/v6.1.0/tombumd-chrome-6.1.0.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
-| [`tombumd-edge-6.1.0.zip`](https://github.com/tombumd/tombumd/releases/download/v6.1.0/tombumd-edge-6.1.0.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
-| [`tombumd-2.0.0.vsix`](https://github.com/tombumd/tombumd/releases/download/v6.1.0/tombumd-2.0.0.vsix) | VS Code extension — `code --install-extension tombumd-2.0.0.vsix`. VS Code 插件。 |
+| [`tombumd-6.1.1.html`](https://github.com/tombumd/tombumd/releases/download/v6.1.1/tombumd-6.1.1.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
+| [`tombumd-chrome-6.1.1.zip`](https://github.com/tombumd/tombumd/releases/download/v6.1.1/tombumd-chrome-6.1.1.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
+| [`tombumd-edge-6.1.1.zip`](https://github.com/tombumd/tombumd/releases/download/v6.1.1/tombumd-edge-6.1.1.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
+| [`tombumd-2.0.2.vsix`](https://github.com/tombumd/tombumd/releases/download/v6.1.1/tombumd-2.0.2.vsix) | VS Code extension — `code --install-extension tombumd-2.0.2.vsix`. VS Code 插件。 |
 
 [Privacy policy · 隐私政策](https://tombumd.github.io/tombumd/privacy-policy.html)
 
