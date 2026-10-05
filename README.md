@@ -5,6 +5,16 @@
 
 A lightweight, fully offline WYSIWYG Markdown editor. 轻量、完全离线的所见即所得 Markdown 编辑器。
 
+## Install · 安装
+
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Add%20to%20Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tombumd-%E2%80%93-wysiwyg-markdow/gfbhjeeledbfhaomhmbkpejkoekpacla)
+[![Microsoft Edge Add-ons](https://img.shields.io/badge/Edge-Get%20it%20for%20Edge-0078D7?style=for-the-badge&logo=microsoftedge&logoColor=white)](https://microsoftedge.microsoft.com/addons/detail/tombumd-%E2%80%93-wysiwyg-markdow/nhgcaiooioglcjhehljniaeffefmeimg)
+[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Install-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=tombumd.tombumd)
+
+- **Chrome**: [Chrome Web Store](https://chromewebstore.google.com/detail/tombumd-%E2%80%93-wysiwyg-markdow/gfbhjeeledbfhaomhmbkpejkoekpacla)
+- **Edge**: [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/tombumd-%E2%80%93-wysiwyg-markdow/nhgcaiooioglcjhehljniaeffefmeimg)
+- **VS Code**: [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=tombumd.tombumd)（或在扩展面板搜索 `tombumd` · or search `tombumd` in the Extensions view）
+
 ## Why tombumd · 为什么选同步马
 
 - **WYSIWYG + source, side by side** — type in the rendered page like in Word, or in the Markdown source; content and caret follow each other both ways.
@@ -29,10 +39,10 @@ All files are on the [Releases page](https://github.com/tombumd/tombumd/releases
 
 | File 文件 | What it is 说明 |
 | --- | --- |
-| [`tombumd-6.1.1.html`](https://github.com/tombumd/tombumd/releases/download/v6.1.1/tombumd-6.1.1.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
-| [`tombumd-chrome-6.1.1.zip`](https://github.com/tombumd/tombumd/releases/download/v6.1.1/tombumd-chrome-6.1.1.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
-| [`tombumd-edge-6.1.1.zip`](https://github.com/tombumd/tombumd/releases/download/v6.1.1/tombumd-edge-6.1.1.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
-| [`tombumd-2.0.2.vsix`](https://github.com/tombumd/tombumd/releases/download/v6.1.1/tombumd-2.0.2.vsix) | VS Code extension — `code --install-extension tombumd-2.0.2.vsix`. VS Code 插件。 |
+| [`tombumd-6.1.2.html`](https://github.com/tombumd/tombumd/releases/download/v6.1.2/tombumd-6.1.2.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
+| [`tombumd-chrome-6.1.2.zip`](https://github.com/tombumd/tombumd/releases/download/v6.1.2/tombumd-chrome-6.1.2.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
+| [`tombumd-edge-6.1.2.zip`](https://github.com/tombumd/tombumd/releases/download/v6.1.2/tombumd-edge-6.1.2.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
+| [`tombumd-2.0.3.vsix`](https://github.com/tombumd/tombumd/releases/download/v6.1.2/tombumd-2.0.3.vsix) | VS Code extension — `code --install-extension tombumd-2.0.3.vsix`. VS Code 插件。 |
 
 [Privacy policy · 隐私政策](https://tombumd.github.io/tombumd/privacy-policy.html)
 
