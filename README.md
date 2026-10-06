@@ -19,10 +19,12 @@ A lightweight, fully offline WYSIWYG Markdown editor. 轻量、完全离线的�
 
 - **WYSIWYG + source, side by side** — type in the rendered page like in Word, or in the Markdown source; content and caret follow each other both ways.
   **所见即所得 + 源码双栏**：像 Word 一样在预览里写，也可以直接改源码，内容和光标双向同步。
-- **Small and self-contained** — plain HTML + CSS + JS, a single ~2.8 MB file, no install, no server, no network. Math (LaTeX), code highlighting, Mermaid diagrams and anchors included.
-  **小巧、零依赖**：纯 HTML + CSS + JS，单个文件约 2.8 MB，免安装、无需服务器、不联网；支持公式、代码高亮、流程图、锚点跳转。
+- **Small and self-contained** — plain HTML + CSS + JS, a single ~3 MB file, no install, no server, no network. Math (LaTeX), code highlighting, Mermaid diagrams and anchors included.
+  **小巧、零依赖**：纯 HTML + CSS + JS，单个文件约 3 MB，免安装、无需服务器、不联网；支持公式、代码高亮、流程图、锚点跳转。
 - **Built-in formula editor** — click into any formula to edit it, or use the formula palette (`Ctrl+M`) with hundreds of symbols; edits sync both ways with the document.
   **内置公式编辑器**：点进公式即可修改，或用公式面板（`Ctrl+M`，数百个符号与模板），与正文双向同步。
+- **A4 pages** — turn on the A4 preview to see real pages with margins, page numbers and page breaks; PDF, PNG and Word exports break pages exactly where the preview does.
+  **A4 分页**：开启 A4 预览即可看到带页边距、页码、分页符的真实页面；导出 PDF、PNG、Word 的分页与预览一致。
 - **Export & copy** — export to HTML (works offline), Word `.docx` (editable equations), PDF, PNG, LaTeX; copy as Markdown, for Word, or for WeChat Official Accounts.
   **导出与复制**：导出 HTML（离线可看）、Word（公式可编辑）、PDF、PNG 长图、LaTeX；一键复制 Markdown / Word / 公众号格式。
 
@@ -39,10 +41,10 @@ All files are on the [Releases page](https://github.com/tombumd/tombumd/releases
 
 | File 文件 | What it is 说明 |
 | --- | --- |
-| [`tombumd-6.1.2.html`](https://github.com/tombumd/tombumd/releases/download/v6.1.2/tombumd-6.1.2.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
-| [`tombumd-chrome-6.1.2.zip`](https://github.com/tombumd/tombumd/releases/download/v6.1.2/tombumd-chrome-6.1.2.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
-| [`tombumd-edge-6.1.2.zip`](https://github.com/tombumd/tombumd/releases/download/v6.1.2/tombumd-edge-6.1.2.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
-| [`tombumd-2.0.3.vsix`](https://github.com/tombumd/tombumd/releases/download/v6.1.2/tombumd-2.0.3.vsix) | VS Code extension — `code --install-extension tombumd-2.0.3.vsix`. VS Code 插件。 |
+| [`tombumd-7.0.5.html`](https://github.com/tombumd/tombumd/releases/download/v7.0.5/tombumd-7.0.5.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
+| [`tombumd-chrome-7.0.5.zip`](https://github.com/tombumd/tombumd/releases/download/v7.0.5/tombumd-chrome-7.0.5.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
+| [`tombumd-edge-7.0.5.zip`](https://github.com/tombumd/tombumd/releases/download/v7.0.5/tombumd-edge-7.0.5.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
+| [`tombumd-2.1.5.vsix`](https://github.com/tombumd/tombumd/releases/download/v7.0.5/tombumd-2.1.5.vsix) | VS Code extension — `code --install-extension tombumd-2.1.5.vsix`. VS Code 插件。 |
 
 [Privacy policy · 隐私政策](https://tombumd.github.io/tombumd/privacy-policy.html)
 
