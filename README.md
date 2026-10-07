@@ -14,6 +14,7 @@ A lightweight, fully offline WYSIWYG Markdown editor. 轻量、完全离线的�
 - **Chrome**: [Chrome Web Store](https://chromewebstore.google.com/detail/tombumd-%E2%80%93-wysiwyg-markdow/gfbhjeeledbfhaomhmbkpejkoekpacla)
 - **Edge**: [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/tombumd-%E2%80%93-wysiwyg-markdow/nhgcaiooioglcjhehljniaeffefmeimg)
 - **VS Code**: [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=tombumd.tombumd)（或在扩展面板搜索 `tombumd` · or search `tombumd` in the Extensions view）
+- **Open VSX**（VSCodium / Cursor 等）: [open-vsx.org](https://open-vsx.org/extension/tombumd/tombumd)
 
 ## Why tombumd · 为什么选同步马
 
@@ -41,10 +42,10 @@ All files are on the [Releases page](https://github.com/tombumd/tombumd/releases
 
 | File 文件 | What it is 说明 |
 | --- | --- |
-| [`tombumd-7.0.5.html`](https://github.com/tombumd/tombumd/releases/download/v7.0.5/tombumd-7.0.5.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
-| [`tombumd-chrome-7.0.5.zip`](https://github.com/tombumd/tombumd/releases/download/v7.0.5/tombumd-chrome-7.0.5.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
-| [`tombumd-edge-7.0.5.zip`](https://github.com/tombumd/tombumd/releases/download/v7.0.5/tombumd-edge-7.0.5.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
-| [`tombumd-2.1.5.vsix`](https://github.com/tombumd/tombumd/releases/download/v7.0.5/tombumd-2.1.5.vsix) | VS Code extension — `code --install-extension tombumd-2.1.5.vsix`. VS Code 插件。 |
+| [`tombumd-7.0.9.html`](https://github.com/tombumd/tombumd/releases/download/v7.0.9/tombumd-7.0.9.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
+| [`tombumd-chrome-7.0.9.zip`](https://github.com/tombumd/tombumd/releases/download/v7.0.9/tombumd-chrome-7.0.9.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
+| [`tombumd-edge-7.0.9.zip`](https://github.com/tombumd/tombumd/releases/download/v7.0.9/tombumd-edge-7.0.9.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
+| [`tombumd-2.1.9.vsix`](https://github.com/tombumd/tombumd/releases/download/v7.0.9/tombumd-2.1.9.vsix) | VS Code extension — `code --install-extension tombumd-2.1.9.vsix`. VS Code 插件。 |
 
 [Privacy policy · 隐私政策](https://tombumd.github.io/tombumd/privacy-policy.html)
 
