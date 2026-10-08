@@ -1,6 +1,6 @@
 # Third-Party Notices · 第三方软件声明
 
-All files in this repository (`index.html`, `tombumd-7.1.3.html`, `tombumd-chrome-7.1.3.zip`, `tombumd-edge-7.1.3.zip`, `tombumd-2.2.3.vsix`)
+All files in this repository (`index.html`, `tombumd-7.1.4.html`, `tombumd-chrome-7.1.4.zip`, `tombumd-edge-7.1.4.zip`, `tombumd-2.2.4.vsix`)
 contain tombumd's (同步马) own code, released under the MIT License (`LICENSE.txt`), **plus the unmodified third-party libraries listed below**,
 which keep their own licenses. Full license texts are in `licenses/`. Each package also carries its own copy of these notices
 (the single HTML file at its end, the zip files and the `.vsix` as `LICENSE.txt` / `THIRD_PARTY_NOTICES.md` / `licenses/`).
@@ -8,8 +8,8 @@ which keep their own licenses. Full license texts are in `licenses/`. Each packa
 本仓库所有发布文件都包含 tombumd（同步马）自己的代码（MIT 协议，见 `LICENSE.txt`）以及下列**未修改**的第三方库；第三方库遵循各自的协议，
 协议全文在 `licenses/`。每个发布包里也各自带有一份声明（单文件 HTML 在文件末尾，zip 与 `.vsix` 里是 `LICENSE.txt` / `THIRD_PARTY_NOTICES.md` / `licenses/`）。
 
-> The VS Code extension (`tombumd-2.2.3.vsix`) ships the same libraries except jsdiff, under `media/lib/`.
-> VS Code 插件（`tombumd-2.2.3.vsix`）随附的库与下表相同（不含 jsdiff），位于 `media/lib/`。
+> The VS Code extension (`tombumd-2.2.4.vsix`) ships the same libraries except jsdiff, under `media/lib/`.
+> VS Code 插件（`tombumd-2.2.4.vsix`）随附的库与下表相同（不含 jsdiff），位于 `media/lib/`。
 
 ---
 
