@@ -1,27 +1,24 @@
 # Third-Party Notices · 第三方软件声明
 
-All files in this repository (`index.html`, `tombumd-7.1.18.html`, `tombumd-chrome-7.1.18.zip`, `tombumd-edge-7.1.18.zip`, `tombumd-2.2.18.vsix`)
-contain tombumd's (同步马) own code, released under the MIT License (`LICENSE.txt`), **plus the unmodified third-party libraries listed below**,
-which keep their own licenses. Full license texts are in `licenses/`. Each package also carries its own copy of these notices
-(the single HTML file at its end, the zip files and the `.vsix` as `LICENSE.txt` / `THIRD_PARTY_NOTICES.md` / `licenses/`).
+tombumd's (同步马) own code is © 2026 tombumd, released under the MIT License (see `LICENSE.txt`). The notices below apply only to the third-party libraries.
+This browser extension (allv6_x_one) ships the following third-party libraries in `lib/`, **byte-for-byte identical** to the official
+npm releases listed below (verified by file comparison). They are not minified, obfuscated or otherwise processed by our build.
+The extension loads nothing from the network: every library is a local file.
+Their licenses still apply to them; full license texts are in the `licenses/` folder.
 
-本仓库所有发布文件都包含 tombumd（同步马）自己的代码（MIT 协议，见 `LICENSE.txt`）以及下列**未修改**的第三方库；第三方库遵循各自的协议，
-协议全文在 `licenses/`。每个发布包里也各自带有一份声明（单文件 HTML 在文件末尾，zip 与 `.vsix` 里是 `LICENSE.txt` / `THIRD_PARTY_NOTICES.md` / `licenses/`）。
-
-> The VS Code extension (`tombumd-2.2.18.vsix`) ships the same libraries except jsdiff, under `media/lib/`.
-> VS Code 插件（`tombumd-2.2.18.vsix`）随附的库与下表相同（不含 jsdiff），位于 `media/lib/`。
-
----
+tombumd 自身代码 © 2026 tombumd，使用 MIT 协议（见 `LICENSE.txt`），下面的声明只针对第三方库。本浏览器插件版（allv6_x_one）不连任何网络地址；`lib/` 里的第三方库与下表所列官方 npm 发布**逐字节一致**
+（已逐个比对），构建时不压缩、不混淆、不做任何处理；它们仍遵循各自的协议，完整协议文本在 `licenses/` 文件夹。
 
 | Library 库 | Version 版本 | File 文件 | License 协议 | Copyright 版权 | Used for 用途 |
 | --- | --- | --- | --- | --- | --- |
 | [MathJax](https://www.mathjax.org/) | 3.2.2 (npm `mathjax@3.2.2`, `es5/tex-svg-full.js`) | `lib/mathjax.js` | Apache-2.0 | © The MathJax Consortium | 公式渲染；有公式时内嵌进导出的 HTML · math rendering; embedded in exported HTML |
 | [highlight.js](https://highlightjs.org/) | 11.10.0 (npm `@highlightjs/cdn-assets@11.10.0`, `highlight.min.js`) | `lib/highlight.min.js` | BSD-3-Clause | © 2006 Ivan Sagalaev; Josh Goebel and other contributors | 代码高亮 · code highlighting |
+| [gemoji](https://github.com/github/gemoji) 名字表 · emoji names | 1837 names (from VS Code git extension `emojis.json`) | `lib/emoji.js` | MIT | © 2019 GitHub, Inc. | `:smile:` → 😄（按需加载；只是名字表，由 tombumd 转成 js，不是原样文件）· emoji shortcodes (loaded on demand; name table converted to js) |
 | [mermaid](https://mermaid.js.org/) | 11.17.2 (npm `mermaid`, `dist/mermaid.min.js`) | `lib/mermaid.min.js` | MIT | © 2014–2022 Knut Sveidqvist | 流程图（按需加载）· diagrams (loaded on demand) |
 | [html2canvas](https://html2canvas.hertzen.com/) | 1.4.1 (npm `html2canvas`, `dist/html2canvas.min.js`) | `lib/html2canvas.min.js` | MIT | © 2012 Niklas von Hertzen | 导出 PNG / PDF（按需加载）· PNG / PDF export |
 | [jsPDF](https://github.com/parallax/jsPDF) | 2.5.1 (npm `jspdf`, `dist/jspdf.umd.min.js`) | `lib/jspdf.umd.min.js` | MIT | © 2010–2021 James Hall; © 2015–2021 yWorks GmbH | 导出 PDF（按需加载）· PDF export |
 | [jsdiff](https://github.com/kpdecker/jsdiff) | 5.2.0 (npm `diff`, `dist/diff.min.js`) | `lib/diff.min.js` | BSD-3-Clause | © 2009–2015 Kevin Decker | 版本面板的逐行差异 · line diff in the version panel |
-| [gemoji](https://github.com/github/gemoji) 名字表 · emoji names | 1837 names (from VS Code git extension `emojis.json`) | `lib/emoji.js` | MIT | © 2019 GitHub, Inc. | `:smile:` → 😄（按需加载；只是名字表，由 tombumd 转成 js，不是原样文件）· emoji shortcodes (loaded on demand; name table converted to js) |
+| [AntV Infographic](https://github.com/antvis/Infographic) | 0.2.20 (npm `@antv/infographic`, `dist/infographic.min.js`) | `lib/infographic.min.js` | MIT | © 2025 AntV | 信息图（```infographic 代码块，按需加载）· infographics (loaded on demand) |
 
 ## Notes · 说明
 
@@ -66,6 +63,14 @@ which keep their own licenses. Full license texts are in `licenses/`. Each packa
 FileSaver.js (MIT), omggif (MIT, © Dean McNamee), png.js (MIT), the Adobe JPEG encoder port (BSD-3-Clause, © 2008 Adobe Systems Incorporated),
 RGBColor (Stoyan Stefanov), fflate (MIT), and contributions by the authors listed in its header.
 
+### AntV Infographic (MIT) and the code it bundles
+
+`infographic.min.js` is the upstream UMD build, unmodified (full license: `licenses/infographic-LICENSE.txt`). It bundles d3 (ISC), linkedom (ISC),
+postcss, roughjs, lodash-es, culori, tinycolor2, eventemitter3, flru, measury, round-polygon, @antv/layout, @antv/hierarchy (all MIT).
+The library would download fonts (assets.antv.antgroup.com) and search icons online (weavefox.cn); the editor hands it a fetch that only allows
+data: / blob: URLs at load time and re-registers the built-in web fonts without URLs, so it never connects to the network.
+本库原样内嵌；它默认会联网加载字体、搜索图标，编辑器在加载它时给它一个只放行 data: / blob: 的 fetch，并把内置网络字体改注册成无地址的同名字体，因此不会联网（条目里写的 icon 不显示）。
+
 ### jsdiff (BSD-3-Clause)
 
 - The minified build has no license header of its own, so the full license text is shipped as `licenses/jsdiff-LICENSE.txt`
@@ -90,3 +95,9 @@ Includes tslib (© Microsoft Corporation, 0BSD-style permission notice, kept in 
 3. If you modify a third-party file, say so in that file (Apache-2.0 §4(b)). 修改第三方文件时在文件里注明。
 4. Don't use the names of MathJax / highlight.js authors to promote tombumd (BSD-3-Clause, Apache-2.0 §6). 不要用第三方作者或商标为 tombumd 背书。
 
+## Build tools (not distributed) · 构建工具（不随插件分发）
+
+The build uses [terser](https://github.com/terser/terser) (BSD-2-Clause) to bundle and minify tombumd's own code and [fflate](https://github.com/101arrowz/fflate) (MIT)
+to create zip files.
+None of their code is included in the extension package.
+构建时用 terser 合并压缩 tombumd 自己的代码、fflate 打 zip 包；它们的代码都不进入插件包。

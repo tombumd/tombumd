@@ -44,10 +44,10 @@ All files are on the [Releases page](https://github.com/tombumd/tombumd/releases
 
 | File 文件 | What it is 说明 |
 | --- | --- |
-| [`tombumd-7.1.18.html`](https://github.com/tombumd/tombumd/releases/download/v7.1.18/tombumd-7.1.18.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
-| [`tombumd-chrome-7.1.18.zip`](https://github.com/tombumd/tombumd/releases/download/v7.1.18/tombumd-chrome-7.1.18.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
-| [`tombumd-edge-7.1.18.zip`](https://github.com/tombumd/tombumd/releases/download/v7.1.18/tombumd-edge-7.1.18.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
-| [`tombumd-2.2.18.vsix`](https://github.com/tombumd/tombumd/releases/download/v7.1.18/tombumd-2.2.18.vsix) | VS Code extension — `code --install-extension tombumd-2.2.18.vsix`. VS Code 插件。 |
+| [`tombumd-7.2.3.html`](https://github.com/tombumd/tombumd/releases/download/v7.2.3/tombumd-7.2.3.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
+| [`tombumd-chrome-7.2.3.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.3/tombumd-chrome-7.2.3.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
+| [`tombumd-edge-7.2.3.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.3/tombumd-edge-7.2.3.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
+| [`tombumd-2.3.3.vsix`](https://github.com/tombumd/tombumd/releases/download/v7.2.3/tombumd-2.3.3.vsix) | VS Code extension — `code --install-extension tombumd-2.3.3.vsix`. VS Code 插件。 |
 
 [Privacy policy · 隐私政策](https://tombumd.github.io/tombumd/privacy-policy.html)
 
