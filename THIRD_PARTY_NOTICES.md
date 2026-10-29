@@ -13,12 +13,10 @@ tombumd 自身代码 © 2026 tombumd，使用 MIT 协议（见 `LICENSE.txt`）�
 | --- | --- | --- | --- | --- | --- |
 | [MathJax](https://www.mathjax.org/) | 3.2.2 (npm `mathjax@3.2.2`, `es5/tex-svg-full.js`) | `lib/mathjax.js` | Apache-2.0 | © The MathJax Consortium | 公式渲染；有公式时内嵌进导出的 HTML · math rendering; embedded in exported HTML |
 | [highlight.js](https://highlightjs.org/) | 11.10.0 (npm `@highlightjs/cdn-assets@11.10.0`, `highlight.min.js`) | `lib/highlight.min.js` | BSD-3-Clause | © 2006 Ivan Sagalaev; Josh Goebel and other contributors | 代码高亮 · code highlighting |
-| [gemoji](https://github.com/github/gemoji) 名字表 · emoji names | 1837 names (from VS Code git extension `emojis.json`) | `lib/emoji.js` | MIT | © 2019 GitHub, Inc. | `:smile:` → 😄（按需加载；只是名字表，由 tombumd 转成 js，不是原样文件）· emoji shortcodes (loaded on demand; name table converted to js) |
 | [mermaid](https://mermaid.js.org/) | 11.17.2 (npm `mermaid`, `dist/mermaid.min.js`) | `lib/mermaid.min.js` | MIT | © 2014–2022 Knut Sveidqvist | 流程图（按需加载）· diagrams (loaded on demand) |
 | [html2canvas](https://html2canvas.hertzen.com/) | 1.4.1 (npm `html2canvas`, `dist/html2canvas.min.js`) | `lib/html2canvas.min.js` | MIT | © 2012 Niklas von Hertzen | 导出 PNG / PDF（按需加载）· PNG / PDF export |
 | [jsPDF](https://github.com/parallax/jsPDF) | 2.5.1 (npm `jspdf`, `dist/jspdf.umd.min.js`) | `lib/jspdf.umd.min.js` | MIT | © 2010–2021 James Hall; © 2015–2021 yWorks GmbH | 导出 PDF（按需加载）· PDF export |
 | [jsdiff](https://github.com/kpdecker/jsdiff) | 5.2.0 (npm `diff`, `dist/diff.min.js`) | `lib/diff.min.js` | BSD-3-Clause | © 2009–2015 Kevin Decker | 版本面板的逐行差异 · line diff in the version panel |
-| [AntV Infographic](https://github.com/antvis/Infographic) | 0.2.20 (npm `@antv/infographic`, `dist/infographic.min.js`) | `lib/infographic.min.js` | MIT | © 2025 AntV | 信息图（```infographic 代码块，按需加载）· infographics (loaded on demand) |
 
 ## Notes · 说明
 
@@ -62,14 +60,6 @@ tombumd 自身代码 © 2026 tombumd，使用 MIT 协议（见 `LICENSE.txt`）�
 `jspdf.umd.min.js` is the upstream build. Its license comments are preserved inside the file, including:
 FileSaver.js (MIT), omggif (MIT, © Dean McNamee), png.js (MIT), the Adobe JPEG encoder port (BSD-3-Clause, © 2008 Adobe Systems Incorporated),
 RGBColor (Stoyan Stefanov), fflate (MIT), and contributions by the authors listed in its header.
-
-### AntV Infographic (MIT) and the code it bundles
-
-`infographic.min.js` is the upstream UMD build, unmodified (full license: `licenses/infographic-LICENSE.txt`). It bundles d3 (ISC), linkedom (ISC),
-postcss, roughjs, lodash-es, culori, tinycolor2, eventemitter3, flru, measury, round-polygon, @antv/layout, @antv/hierarchy (all MIT).
-The library would download fonts (assets.antv.antgroup.com) and search icons online (weavefox.cn); the editor hands it a fetch that only allows
-data: / blob: URLs at load time and re-registers the built-in web fonts without URLs, so it never connects to the network.
-本库原样内嵌；它默认会联网加载字体、搜索图标，编辑器在加载它时给它一个只放行 data: / blob: 的 fetch，并把内置网络字体改注册成无地址的同名字体，因此不会联网（条目里写的 icon 不显示）。
 
 ### jsdiff (BSD-3-Clause)
 
