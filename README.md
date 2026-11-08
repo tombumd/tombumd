@@ -1,5 +1,9 @@
 # tombumd · 同步马
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
+
+**MIT licensed · MIT 开源许可** — 自有代码可按 MIT 协议使用、修改及再分发。
+
 **Write in the preview, edit the source beside it — both stay in sync.**
 **在预览里直接写，源码在旁边同步改。**
 
@@ -40,14 +44,16 @@ Opens the full editor in your browser — nothing to install, and your documents
 
 ## Downloads · 下载
 
-All files are on the [Releases page](https://github.com/tombumd/tombumd/releases/latest). 所有文件见 [Releases 页面](https://github.com/tombumd/tombumd/releases/latest)。
+Latest version · 最新版本：**7.2.67**（VS Code：**2.3.64**）。
+
+Download the four files below directly. 下列四个文件可直接下载；历史版本见 [Releases 页面](https://github.com/tombumd/tombumd/releases)。
 
 | File 文件 | What it is 说明 |
 | --- | --- |
-| [`tombumd-7.2.16.html`](https://github.com/tombumd/tombumd/releases/download/v7.2.16/tombumd-7.2.16.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
-| [`tombumd-chrome-7.2.16.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.16/tombumd-chrome-7.2.16.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
-| [`tombumd-edge-7.2.16.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.16/tombumd-edge-7.2.16.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
-| [`tombumd-2.3.16.vsix`](https://github.com/tombumd/tombumd/releases/download/v7.2.16/tombumd-2.3.16.vsix) | VS Code extension — `code --install-extension tombumd-2.3.16.vsix`. VS Code 插件。 |
+| [`tombumd-7.2.67.html`](https://github.com/tombumd/tombumd/raw/refs/heads/main/downloads/7.2.67/tombumd-7.2.67.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
+| [`tombumd-chrome-7.2.67.zip`](https://github.com/tombumd/tombumd/raw/refs/heads/main/downloads/7.2.67/tombumd-chrome-7.2.67.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
+| [`tombumd-edge-7.2.67.zip`](https://github.com/tombumd/tombumd/raw/refs/heads/main/downloads/7.2.67/tombumd-edge-7.2.67.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
+| [`tombumd-2.3.64.vsix`](https://github.com/tombumd/tombumd/raw/refs/heads/main/downloads/7.2.67/tombumd-2.3.64.vsix) | VS Code extension — `code --install-extension tombumd-2.3.64.vsix`. VS Code 插件。 |
 
 [Privacy policy · 隐私政策](https://tombumd.github.io/tombumd/privacy-policy.html)
 
@@ -57,4 +63,6 @@ tombumd's own code is released under the [MIT License](LICENSE.txt), © 2026 tom
 Bundled third-party libraries (MathJax, highlight.js, mermaid, html2canvas, jsPDF, jsdiff) keep their own licenses —
 see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and [licenses/](licenses/).
 
-同步马自身代码使用 [MIT 协议](LICENSE.txt)；随附的第三方库遵循各自的协议，见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与 [licenses/](licenses/)。
+你用同步马创作的文档归你所有。
+
+同步马自身代码使用标准 [MIT 协议](LICENSE.txt)；随附的第三方库遵循各自的协议，见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与 [licenses/](licenses/)。

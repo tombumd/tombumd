@@ -1,2 +1,8 @@
 *.zip
 *.vsix
+
+# Published production artifacts
+!downloads/
+!downloads/**/
+!downloads/**/*.zip
+!downloads/**/*.vsix

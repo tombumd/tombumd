@@ -19,11 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-----------------------------------------------------------------------------
-This MIT license covers tombumd's (同步马) own code only. The third-party
-libraries in lib/ keep their own licenses (MathJax: Apache-2.0, highlight.js:
-BSD-3-Clause, mermaid / html2canvas / jsPDF: MIT, jsdiff: BSD-3-Clause, ...).
-See THIRD_PARTY_NOTICES.md and the licenses/ folder.
-本 MIT 协议只适用于同步马（tombumd）自己的代码；lib/ 下的第三方库遵循各自的协议，
-见 THIRD_PARTY_NOTICES.md 与 licenses/ 文件夹。你用同步马创作的文档归你所有。
