@@ -46,14 +46,14 @@ Opens the full editor in your browser — nothing to install, and your documents
 
 Latest version · 最新版本：**7.2.67**（VS Code：**2.3.64**）。
 
-Download the four files below directly. 下列四个文件可直接下载；历史版本见 [Releases 页面](https://github.com/tombumd/tombumd/releases)。
+All four files are on the [latest Release](https://github.com/tombumd/tombumd/releases/tag/v7.2.67). 四个文件见[最新 Release](https://github.com/tombumd/tombumd/releases/tag/v7.2.67)；历史版本见 [Releases 页面](https://github.com/tombumd/tombumd/releases)。
 
 | File 文件 | What it is 说明 |
 | --- | --- |
-| [`tombumd-7.2.67.html`](https://github.com/tombumd/tombumd/raw/refs/heads/main/downloads/7.2.67/tombumd-7.2.67.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
-| [`tombumd-chrome-7.2.67.zip`](https://github.com/tombumd/tombumd/raw/refs/heads/main/downloads/7.2.67/tombumd-chrome-7.2.67.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
-| [`tombumd-edge-7.2.67.zip`](https://github.com/tombumd/tombumd/raw/refs/heads/main/downloads/7.2.67/tombumd-edge-7.2.67.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
-| [`tombumd-2.3.64.vsix`](https://github.com/tombumd/tombumd/raw/refs/heads/main/downloads/7.2.67/tombumd-2.3.64.vsix) | VS Code extension — `code --install-extension tombumd-2.3.64.vsix`. VS Code 插件。 |
+| [`tombumd-7.2.67.html`](https://github.com/tombumd/tombumd/releases/download/v7.2.67/tombumd-7.2.67.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
+| [`tombumd-chrome-7.2.67.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.67/tombumd-chrome-7.2.67.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
+| [`tombumd-edge-7.2.67.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.67/tombumd-edge-7.2.67.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
+| [`tombumd-2.3.64.vsix`](https://github.com/tombumd/tombumd/releases/download/v7.2.67/tombumd-2.3.64.vsix) | VS Code extension — `code --install-extension tombumd-2.3.64.vsix`. VS Code 插件。 |
 
 [Privacy policy · 隐私政策](https://tombumd.github.io/tombumd/privacy-policy.html)
 
