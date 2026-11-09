@@ -44,23 +44,36 @@ Opens the full editor in your browser — nothing to install, and your documents
 
 ## Downloads · 下载
 
-Latest version · 最新版本：**7.2.67**（VS Code：**2.3.64**）。
+Latest version · 最新版本：**7.2.72**（VS Code：**2.3.69**）。
 
-All four files are on the [latest Release](https://github.com/tombumd/tombumd/releases/tag/v7.2.67). 四个文件见[最新 Release](https://github.com/tombumd/tombumd/releases/tag/v7.2.67)；历史版本见 [Releases 页面](https://github.com/tombumd/tombumd/releases)。
+All four files are on the [latest Release](https://github.com/tombumd/tombumd/releases/tag/v7.2.72). 四个文件见[最新 Release](https://github.com/tombumd/tombumd/releases/tag/v7.2.72)；历史版本见 [Releases 页面](https://github.com/tombumd/tombumd/releases)。
 
 | File 文件 | What it is 说明 |
 | --- | --- |
-| [`tombumd-7.2.67.html`](https://github.com/tombumd/tombumd/releases/download/v7.2.67/tombumd-7.2.67.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
-| [`tombumd-chrome-7.2.67.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.67/tombumd-chrome-7.2.67.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
-| [`tombumd-edge-7.2.67.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.67/tombumd-edge-7.2.67.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
-| [`tombumd-2.3.64.vsix`](https://github.com/tombumd/tombumd/releases/download/v7.2.67/tombumd-2.3.64.vsix) | VS Code extension — `code --install-extension tombumd-2.3.64.vsix`. VS Code 插件。 |
+| [`tombumd-7.2.72.html`](https://github.com/tombumd/tombumd/releases/download/v7.2.72/tombumd-7.2.72.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
+| [`tombumd-chrome-7.2.72.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.72/tombumd-chrome-7.2.72.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
+| [`tombumd-edge-7.2.72.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.72/tombumd-edge-7.2.72.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
+| [`tombumd-2.3.69.vsix`](https://github.com/tombumd/tombumd/releases/download/v7.2.72/tombumd-2.3.69.vsix) | VS Code extension — `code --install-extension tombumd-2.3.69.vsix`. VS Code 插件。 |
 
 [Privacy policy · 隐私政策](https://tombumd.github.io/tombumd/privacy-policy.html)
+
+## Changelog · 修改历史
+
+Full release notes for each version are on the [Releases page](https://github.com/tombumd/tombumd/releases). 各版本完整更新说明见 [Releases 页面](https://github.com/tombumd/tombumd/releases)。
+
+### v7.2.72 · VS Code 2.3.69 (2026-11-09)
+- **Unified formula toolbar · 公式工具栏合并与白底风格**: Multi-line formula alignment (`=`, left, right, center) and brace (`{`, `}`) buttons are merged into the top-right `tag / label` toolbar so they never overlap the selection toolbar; unified white background with dark gray text, light-blue active state, and automatic wrapping in narrow windows. 多行公式的对齐与大括号按钮合并到右上角 tag / label 工具栏，避免与选区格式栏重叠；统一白底深灰字与浅蓝激活态，窄窗口自动换行。
+- **Formula alignment spacing & unbraced arguments · 对齐间距与无花括号参数修复**: Fixed leading spacing in `align` / `aligned` when font or color commands wrap a relation symbol across preview, DOCX, and LaTeX exports; fixed single-token parsing and caret placement in unbraced fractions, scripts (`x^12`, `x^1.2`), roots, and accents, auto-adding braces on edit without swallowing adjacent tokens. 修复 `align` / `aligned` 中字体或颜色包住关系符时的起始间距（预览、DOCX、LaTeX 导出同步一致）；修复无花括号分式、上下标（保留 `x^12`、`x^1.2` 单记号指数语义）、根号与重音的单记号参数定位，编辑时自动补花括号。
+- **Document title (`===`) & structure protection · 文档标题与结构保护**: Added Document Title (`===`) to the format menu and `/title` slash command with one-click centering; protected setext heading underlines, footnote definitions (`[^id]:`), and closing `#` markers from accidental boundary deletion. 格式菜单与 `/title` 新增“文档标题（`===`）”并支持一键居中转换；保护下划线标题、脚注定义与闭合井号不被跨界误删。
+- **Firefox / code-server fallback & Chinese punctuation `/` menu · 火狐宿主兼容与中文标点斜杠菜单**: Added an allowlisted host fallback channel with CSP nonce verification when Service Worker virtual resource requests fail in Firefox / code-server; fixed `/` slash command triggering after Chinese punctuation (`、`, `，`, `。`) and preserved directional TeX selection highlights when unfocused. 修复部分 Firefox / code-server 环境虚拟资源请求失败导致编辑器与公式卡在加载的问题；修复中文标点后 `/` 指令菜单触发及 TeX 源码双向选区高亮。
+
+### v7.2.67 · VS Code 2.3.64 (2026-11-08)
+- **Live LaTeX source editing & three-way sync · 公式源码实时编辑与三端同步**: Edit LaTeX source directly inside the formula editor with instant preview and Markdown sync, shared undo/redo, and unfocused caret/selection indicators; movable and resizable Mermaid / Infographic source panel. 公式编辑器内支持 LaTeX 源码实时编辑，与公式预览及 Markdown 正文共享撤销 / 重做并保持光标与选区三向同步；Mermaid / Infographic 独立源码面板支持拖动、缩放与复位。
 
 ## License · 协议
 
 tombumd's own code is released under the [MIT License](LICENSE.txt), © 2026 tombumd.
-Bundled third-party libraries (MathJax, highlight.js, mermaid, html2canvas, jsPDF, jsdiff) keep their own licenses —
+Bundled third-party libraries (DOMPurify, MathJax, highlight.js, gemoji, mermaid, html2canvas, jsPDF, jsdiff, AntV Infographic) keep their own licenses —
 see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and [licenses/](licenses/).
 
 你用同步马创作的文档归你所有。
