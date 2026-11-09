@@ -70,6 +70,12 @@ Full release notes for each version are on the [Releases page](https://github.co
 ### v7.2.67 · VS Code 2.3.64 (2026-11-08)
 - **Live LaTeX source editing & three-way sync · 公式源码实时编辑与三端同步**: Edit LaTeX source directly inside the formula editor with instant preview and Markdown sync, shared undo/redo, and unfocused caret/selection indicators; movable and resizable Mermaid / Infographic source panel. 公式编辑器内支持 LaTeX 源码实时编辑，与公式预览及 Markdown 正文共享撤销 / 重做并保持光标与选区三向同步；Mermaid / Infographic 独立源码面板支持拖动、缩放与复位。
 
+### v7.2.16 · VS Code 2.3.16 (2026-10-29)
+- **Markdown compatibility, formula styling & worker regex search · 语法兼容、公式样式与 Worker 正则查找**: Reference-style links/images, CRLF sync & three-way merge in VS Code, formula font size / clear-color actions, and terminable Web Worker regex search/replace. 支持引用式链接与图片、CRLF 同步与 VS Code 三方合并、公式字号与清除颜色，以及可超时终止的 Worker 正则查找替换。
+
+### v7.2.12 · VS Code 2.3.12 (2026-10-25)
+- **Selection toolbar, `/` slash commands, folding & annotations · 选区格式栏、斜杠指令、折叠与批注**: Floating selection toolbar, `/` slash menu, heading and code block folding, annotations, centered headings, and CJK whole-word search. 新增选中文字浮动格式栏、`/` 斜杠指令、标题与代码块折叠、批注、标题居中及中文全词匹配查找。
+
 ## License · 协议
 
 tombumd's own code is released under the [MIT License](LICENSE.txt), © 2026 tombumd.
