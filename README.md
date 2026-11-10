@@ -9,6 +9,17 @@
 
 A lightweight, fully offline WYSIWYG Markdown editor. 轻量、完全离线的所见即所得 Markdown 编辑器。
 
+## Demo · 演示
+
+**👉 [Try it online · 在线体验](https://tombumd.github.io/tombumd/)**
+
+![tombumd demo](demo.gif)
+
+**👉 [Try it online · 在线体验](https://tombumd.github.io/tombumd/)**
+
+Opens the full editor in your browser — nothing to install, and your documents never leave your computer.
+直接在浏览器里打开完整编辑器，免安装；文档只在你的电脑上处理，不会上传。
+
 ## Install · 安装
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Add%20to%20Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tombumd-%E2%80%93-wysiwyg-markdow/gfbhjeeledbfhaomhmbkpejkoekpacla)
@@ -35,46 +46,25 @@ A lightweight, fully offline WYSIWYG Markdown editor. 轻量、完全离线的�
 - **Export & copy** — export to HTML (works offline), Word `.docx` (editable equations), PDF, PNG, LaTeX; copy as Markdown, for Word, or for WeChat Official Accounts.
   **导出与复制**：导出 HTML（离线可看）、Word（公式可编辑）、PDF、PNG 长图、LaTeX；一键复制 Markdown / Word / 公众号格式。
 
-## Try it online · 在线体验
-
-**👉 <https://tombumd.github.io/tombumd/>**
-
-Opens the full editor in your browser — nothing to install, and your documents never leave your computer.
-直接在浏览器里打开完整编辑器，免安装；文档只在你的电脑上处理，不会上传。
-
 ## Downloads · 下载
 
-Latest version · 最新版本：**7.2.72**（VS Code：**2.3.69**）。
+Latest version · 最新版本：**7.2.79**（VS Code：**2.3.76**）。
 
-All four files are on the [latest Release](https://github.com/tombumd/tombumd/releases/tag/v7.2.72). 四个文件见[最新 Release](https://github.com/tombumd/tombumd/releases/tag/v7.2.72)；历史版本见 [Releases 页面](https://github.com/tombumd/tombumd/releases)。
+All four files are on the [latest Release](https://github.com/tombumd/tombumd/releases/tag/v7.2.79). 四个文件见[最新 Release](https://github.com/tombumd/tombumd/releases/tag/v7.2.79)；历史版本见 [Releases 页面](https://github.com/tombumd/tombumd/releases)。
 
 | File 文件 | What it is 说明 |
 | --- | --- |
-| [`tombumd-7.2.72.html`](https://github.com/tombumd/tombumd/releases/download/v7.2.72/tombumd-7.2.72.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
-| [`tombumd-chrome-7.2.72.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.72/tombumd-chrome-7.2.72.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
-| [`tombumd-edge-7.2.72.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.72/tombumd-edge-7.2.72.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
-| [`tombumd-2.3.69.vsix`](https://github.com/tombumd/tombumd/releases/download/v7.2.72/tombumd-2.3.69.vsix) | VS Code extension — `code --install-extension tombumd-2.3.69.vsix`. VS Code 插件。 |
+| [`tombumd-7.2.79.html`](https://github.com/tombumd/tombumd/releases/download/v7.2.79/tombumd-7.2.79.html) | Single-file offline edition — download and open it in a browser, works without network. 单文件离线版，下载后用浏览器打开，断网可用。 |
+| [`tombumd-chrome-7.2.79.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.79/tombumd-chrome-7.2.79.zip) | Chrome extension — unzip, open `chrome://extensions`, turn on Developer mode, *Load unpacked*. Chrome 插件：解压后打开 `chrome://extensions`，开启开发者模式，点“加载已解压的扩展程序”。 |
+| [`tombumd-edge-7.2.79.zip`](https://github.com/tombumd/tombumd/releases/download/v7.2.79/tombumd-edge-7.2.79.zip) | Microsoft Edge extension — same steps at `edge://extensions`. Edge 插件：在 `edge://extensions` 中同样操作。 |
+| [`tombumd-2.3.76.vsix`](https://github.com/tombumd/tombumd/releases/download/v7.2.79/tombumd-2.3.76.vsix) | VS Code extension — `code --install-extension tombumd-2.3.76.vsix`. VS Code 插件。 |
 
 [Privacy policy · 隐私政策](https://tombumd.github.io/tombumd/privacy-policy.html)
 
 ## Changelog · 修改历史
 
-Full release notes for each version are on the [Releases page](https://github.com/tombumd/tombumd/releases). 各版本完整更新说明见 [Releases 页面](https://github.com/tombumd/tombumd/releases)。
-
-### v7.2.72 · VS Code 2.3.69 (2026-11-09)
-- **Unified formula toolbar · 公式工具栏合并与白底风格**: Multi-line formula alignment (`=`, left, right, center) and brace (`{`, `}`) buttons are merged into the top-right `tag / label` toolbar so they never overlap the selection toolbar; unified white background with dark gray text, light-blue active state, and automatic wrapping in narrow windows. 多行公式的对齐与大括号按钮合并到右上角 tag / label 工具栏，避免与选区格式栏重叠；统一白底深灰字与浅蓝激活态，窄窗口自动换行。
-- **Formula alignment spacing & unbraced arguments · 对齐间距与无花括号参数修复**: Fixed leading spacing in `align` / `aligned` when font or color commands wrap a relation symbol across preview, DOCX, and LaTeX exports; fixed single-token parsing and caret placement in unbraced fractions, scripts (`x^12`, `x^1.2`), roots, and accents, auto-adding braces on edit without swallowing adjacent tokens. 修复 `align` / `aligned` 中字体或颜色包住关系符时的起始间距（预览、DOCX、LaTeX 导出同步一致）；修复无花括号分式、上下标（保留 `x^12`、`x^1.2` 单记号指数语义）、根号与重音的单记号参数定位，编辑时自动补花括号。
-- **Document title (`===`) & structure protection · 文档标题与结构保护**: Added Document Title (`===`) to the format menu and `/title` slash command with one-click centering; protected setext heading underlines, footnote definitions (`[^id]:`), and closing `#` markers from accidental boundary deletion. 格式菜单与 `/title` 新增“文档标题（`===`）”并支持一键居中转换；保护下划线标题、脚注定义与闭合井号不被跨界误删。
-- **Firefox / code-server fallback & Chinese punctuation `/` menu · 火狐宿主兼容与中文标点斜杠菜单**: Added an allowlisted host fallback channel with CSP nonce verification when Service Worker virtual resource requests fail in Firefox / code-server; fixed `/` slash command triggering after Chinese punctuation (`、`, `，`, `。`) and preserved directional TeX selection highlights when unfocused. 修复部分 Firefox / code-server 环境虚拟资源请求失败导致编辑器与公式卡在加载的问题；修复中文标点后 `/` 指令菜单触发及 TeX 源码双向选区高亮。
-
-### v7.2.67 · VS Code 2.3.64 (2026-11-08)
-- **Live LaTeX source editing & three-way sync · 公式源码实时编辑与三端同步**: Edit LaTeX source directly inside the formula editor with instant preview and Markdown sync, shared undo/redo, and unfocused caret/selection indicators; movable and resizable Mermaid / Infographic source panel. 公式编辑器内支持 LaTeX 源码实时编辑，与公式预览及 Markdown 正文共享撤销 / 重做并保持光标与选区三向同步；Mermaid / Infographic 独立源码面板支持拖动、缩放与复位。
-
-### v7.2.16 · VS Code 2.3.16 (2026-10-29)
-- **Markdown compatibility, formula styling & worker regex search · 语法兼容、公式样式与 Worker 正则查找**: Reference-style links/images, CRLF sync & three-way merge in VS Code, formula font size / clear-color actions, and terminable Web Worker regex search/replace. 支持引用式链接与图片、CRLF 同步与 VS Code 三方合并、公式字号与清除颜色，以及可超时终止的 Worker 正则查找替换。
-
-### v7.2.12 · VS Code 2.3.12 (2026-10-25)
-- **Selection toolbar, `/` slash commands, folding & annotations · 选区格式栏、斜杠指令、折叠与批注**: Floating selection toolbar, `/` slash menu, heading and code block folding, annotations, centered headings, and CJK whole-word search. 新增选中文字浮动格式栏、`/` 斜杠指令、标题与代码块折叠、批注、标题居中及中文全词匹配查找。
+Full bilingual release notes for each version are on the [Releases page](https://github.com/tombumd/tombumd/releases) — not duplicated here.
+各版本完整中英文更新说明见 [Releases 页面](https://github.com/tombumd/tombumd/releases)，不在本 README 重复展开。
 
 ## License · 协议
 
